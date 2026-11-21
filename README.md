@@ -4,9 +4,9 @@ DockLab is a molecular docking workbench built around AutoDock Vina. It lets a r
 
 ## Project status
 
-The repository contains a working local application and Docker deployment configuration. A public Render blueprint is included, but a live hosted URL has **not** been provisioned yet: the hosting account must import the blueprint and create the service. GitHub hosting alone does not run the docking API.
+The repository contains the DockLab application, local Docker configuration, and a deployed public Render preview. GitHub stores the source; Render runs the application and docking API.
 
-**Live website:** Pending hosting deployment. Render will assign the public URL when the blueprint is created; add that URL here after deployment.
+**Live website:** [https://doclabs.onrender.com](https://doclabs.onrender.com)
 
 ## Features
 
@@ -97,7 +97,7 @@ Open [http://localhost:5173](http://localhost:5173). Vite proxies `/api` to the 
 
 ## Public preview deployment
 
-The repository includes a Render Blueprint for a single-service preview. After the repo is pushed, open [Deploy DockLab on Render](https://render.com/deploy?repo=https%3A%2F%2Fgithub.com%2Fbhumiahuja1617-design%2Fdoclabs), sign into Render, and create the Blueprint. Render then displays the actual assigned public URL; add it to the **Live website** line above.
+The repository includes a Render Blueprint for a single-service preview. To create your own instance, open [Deploy DockLab on Render](https://render.com/deploy?repo=https%3A%2F%2Fgithub.com%2Fbhumiahuja1617-design%2Fdoclabs) and follow Render's setup steps. The shared demonstration is available at [https://doclabs.onrender.com](https://doclabs.onrender.com).
 
 The Blueprint uses a free web service and SQLite in temporary storage for an initial demonstration. Free services can sleep/restart and local files can be lost, so this setup is not suitable for persistent research records or dependable long docking runs. For durable/public use, deploy the Docker Compose architecture on an appropriately sized host, configure persistent volumes and backups, and protect the API against unwanted job submissions before opening it to everyone. Check current [Render free-service limitations](https://render.com/docs/free) before deployment.
 
