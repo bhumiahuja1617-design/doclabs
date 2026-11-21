@@ -6,8 +6,8 @@ dependencies:
   # generate platform-specific locks with `conda-lock -f environment.yml`.
   - python=3.11.18
   - rdkit=2026.09.1
-  - openbabel=3.1.0
-  - vina=1.2.5
+  - openbabel=3.2.1
+  - vina=1.2.7
   - meeko=0.8.0
   - fpocket=4.2.3
   - pdbfixer=1.12
