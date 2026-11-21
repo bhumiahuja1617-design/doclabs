@@ -1,0 +1,108 @@
+{
+  "target_id": "1hsg",
+  "name": "HIV-1 Protease",
+  "organism": "Human immunodeficiency virus type 1",
+  "uniprot_id": "P03366",
+  "pdb_id": "1HSG",
+  "resolution_angstroms": 2.0,
+  "structure_method": "X-ray diffraction",
+  "function_summary": "Aspartic protease essential for the life cycle of HIV-1 that cleaves newly synthesized Gag and Gag-Pol polyproteins at nine specific cleavage sites to produce mature, infectious virions. Without functional protease activity, viral particles remain immature and morphologically defective, completely lacking the ability to infect host cells.",
+  "disease_relevance": "Direct therapeutic target for the treatment of Human Immunodeficiency Virus Type 1 (HIV-1) infection and Acquired Immunodeficiency Syndrome (AIDS). Inhibition of this enzyme prevents viral maturation and halts disease progression.",
+  "quaternary_structure": "Homodimer of two identical 99-amino-acid chains (C2-symmetric)",
+  "key_residues": [
+    {
+      "residue": "ASP25",
+      "chains": ["A", "B"],
+      "role": "Catalytic dyad. Coordinates the nucleophilic water molecule to hydrolyze the peptide scissile bond.",
+      "source": "https://www.uniprot.org/uniprotkb/P03366/entry#function"
+    },
+    {
+      "residue": "GLY27",
+      "chains": ["A", "B"],
+      "role": "Conserved active-site loop residue forming critical backbone hydrogen bonds with substrate and inhibitor peptidomimetic hydroxyl groups.",
+      "source": "https://www.rcsb.org/structure/1HSG"
+    },
+    {
+      "residue": "ILE50",
+      "chains": ["A", "B"],
+      "role": "Flexible flap tip residue that closes over the bound ligand; coordinates structural water Wat301 in retropepsin complexes.",
+      "source": "https://hivdb.stanford.edu/dr-summary/comments/PI/"
+    },
+    {
+      "residue": "VAL82",
+      "chains": ["A", "B"],
+      "role": "Hydrophobic pocket wall. Forms van der Waals contacts with inhibitor bulky moieties; site of major resistance mutation V82A.",
+      "source": "https://hivdb.stanford.edu/dr-summary/resistance-notes/PI/"
+    },
+    {
+      "residue": "ILE84",
+      "chains": ["A", "B"],
+      "role": "Core substrate binding pocket residue; mutation I84V causes cross-resistance across multiple protease inhibitors.",
+      "source": "https://hivdb.stanford.edu/dr-summary/resistance-notes/PI/"
+    }
+  ],
+  "approved_inhibitors": [
+    {
+      "name": "Indinavir",
+      "brand_name": "Crixivan",
+      "fda_approval_year": 1996,
+      "pubchem_cid": 5362440,
+      "smiles": "CC(C)(C)NC(=O)[C@@H]1CN(CCN1C[C@@H](O)C[C@@H](Cc2ccccc2)C(=O)N[C@@H]3[C@H](O)Cc4ccccc34)Cc5cccnc5",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/compound/5362440"
+    },
+    {
+      "name": "Darunavir",
+      "brand_name": "Prezista",
+      "fda_approval_year": 2006,
+      "pubchem_cid": 213039,
+      "smiles": "CC(C)CN(C[C@H]([C@H](Cc1ccccc1)NC(=O)O[C@H]2CO[C@H]3[C@@H]2OCCO3)O)S(=O)(=O)c4ccc(cc4)N",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/compound/213039"
+    },
+    {
+      "name": "Saquinavir",
+      "brand_name": "Invirase",
+      "fda_approval_year": 1995,
+      "pubchem_cid": 441243,
+      "smiles": "CC(C)(C)NC(=O)[C@@H]1C[C@@H]2CCCC[C@@H]2CN1C[C@@H](O)[C@H](Cc3ccccc3)NC(=O)[C@H](CC(=O)N)NC(=O)c4ccc5ccccc5n4",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/compound/441243"
+    },
+    {
+      "name": "Ritonavir",
+      "brand_name": "Norvir",
+      "fda_approval_year": 1996,
+      "pubchem_cid": 392622,
+      "smiles": "CC(C)c1nc(cn1C)CN(C)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](Cc2ccccc2)[C@H](O)C[C@@H](Cc3ccccc3)NC(=O)OCc4cncs4",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/compound/392622"
+    },
+    {
+      "name": "Nelfinavir",
+      "brand_name": "Viracept",
+      "fda_approval_year": 1997,
+      "pubchem_cid": 64143,
+      "smiles": "CC(C)(C)NC(=O)[C@@H]1C[C@@H]2CCCC[C@@H]2CN1C[C@@H](O)[C@H](CSc3ccccc3)NC(=O)c4c(C)c(O)ccc4",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/compound/64143"
+    },
+    {
+      "name": "Lopinavir",
+      "brand_name": "Kaletra",
+      "fda_approval_year": 2000,
+      "pubchem_cid": 92727,
+      "smiles": "Cc1cccc(c1C)OCC(=O)N[C@@H](Cc2ccccc2)[C@H](O)C[C@@H](Cc3ccccc3)NC(=O)[C@H](C(C)C)N4CCCNC4=O",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/compound/92727"
+    },
+    {
+      "name": "Atazanavir",
+      "brand_name": "Reyataz",
+      "fda_approval_year": 2003,
+      "pubchem_cid": 148192,
+      "smiles": "COC(=O)N[C@@H](C(C)(C)C)C(=O)N[C@@H](Cc1ccccc1)[C@H](O)CN(Cc2ccc(cc2)c3ccccn3)NC(=O)[C@@H](C(C)(C)C)NC(=O)OC",
+      "source": "https://pubchem.ncbi.nlm.nih.gov/compound/148192"
+    }
+  ],
+  "sources": [
+    "https://www.uniprot.org/uniprotkb/P03366/entry",
+    "https://www.rcsb.org/structure/1HSG",
+    "https://hivdb.stanford.edu/pages/genotypes-phenotypes.html"
+  ]
+}
+

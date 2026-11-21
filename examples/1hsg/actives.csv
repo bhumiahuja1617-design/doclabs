@@ -1,0 +1,9 @@
+name,smiles,label,source
+indinavir,CC(C)(C)NC(=O)[C@@H]1CN(CCN1C[C@@H](O)C[C@@H](Cc2ccccc2)C(=O)N[C@@H]3[C@H](O)Cc4ccccc34)Cc5cccnc5,active,PubChem:5362440
+darunavir,CC(C)CN(C[C@H]([C@H](Cc1ccccc1)NC(=O)O[C@H]2CO[C@H]3[C@@H]2OCCO3)O)S(=O)(=O)c4ccc(cc4)N,active,PubChem:213039
+saquinavir,CC(C)(C)NC(=O)[C@@H]1C[C@@H]2CCCC[C@@H]2CN1C[C@@H](O)[C@H](Cc3ccccc3)NC(=O)[C@H](CC(=O)N)NC(=O)c4ccc5ccccc5n4,active,PubChem:441243
+ritonavir,CC(C)c1nc(cn1C)CN(C)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](Cc2ccccc2)[C@H](O)C[C@@H](Cc3ccccc3)NC(=O)OCc4cncs4,active,PubChem:392622
+nelfinavir,CC(C)(C)NC(=O)[C@@H]1C[C@@H]2CCCC[C@@H]2CN1C[C@@H](O)[C@H](CSc3ccccc3)NC(=O)c4c(C)c(O)ccc4,active,PubChem:64143
+lopinavir,Cc1cccc(c1C)OCC(=O)N[C@@H](Cc2ccccc2)[C@H](O)C[C@@H](Cc3ccccc3)NC(=O)[C@H](C(C)C)N4CCCNC4=O,active,PubChem:92727
+atazanavir,COC(=O)N[C@@H](C(C)(C)C)C(=O)N[C@@H](Cc1ccccc1)[C@H](O)CN(Cc2ccc(cc2)c3ccccn3)NC(=O)[C@@H](C(C)(C)C)NC(=O)OC,active,PubChem:148192
+

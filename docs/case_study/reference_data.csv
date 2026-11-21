@@ -1,0 +1,2 @@
+variant,mutation,ligand,fold_change,source_url,status
+,,,,https://hivdb.stanford.edu/dr-summary/resistance-notes/PI/,TODO: curate ligand-by-variant phenotypic fold-change values before calculating correlation

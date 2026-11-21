@@ -1,0 +1,6 @@
+variant,pdb_id,mutation_list,resolution_angstroms,bound_ligand,source_url,status
+wild_type,1HSG,none,2.00,L-735524 (MK1),https://www.rcsb.org/structure/1HSG,verified structure entry; HIV-1 protease NY5 isolate
+egfr_wild_type,1M17,none,2.60,Erlotinib (AQ4),https://www.rcsb.org/structure/1M17,verified structure entry; EGFR kinase domain
+mutant_i50v_a71v,3OXV,"I50V, A71V compensatory background",1.75,Amprenavir (478),https://www.rcsb.org/structure/3OXV,verified RCSB structure and primary citation; selected chain A ligand and A/B protease dimer
+mutant_i84v_l90m,2I4V,"I84V, L90M",1.50,TMC126 (DJR),https://www.rcsb.org/structure/2I4V,verified RCSB structure; HIV-1 protease dimer
+mutant_i50v,2R43,I50V,1.58,"Amino-decorated pyrrolidine inhibitor (G3G)",https://www.rcsb.org/structure/2R43,verified RCSB structure; HIV-1 protease dimer

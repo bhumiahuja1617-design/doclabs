@@ -1,0 +1,25 @@
+{
+  "target": "1HSG",
+  "fixed_seed": 42,
+  "exhaustiveness": 8,
+  "source_note": "Unpopulated pending real Phase 1 scientific execution. Will be recorded directly from measured Vina redocking and screening runs.",
+  "redocking": {
+    "rmsd_angstroms": null,
+    "score_kcal_mol": null,
+    "key_residue_recovery": null
+  },
+  "screening": {
+    "actives_count": 7,
+    "decoys_count": 30,
+    "actives_mean_score_kcal_mol": null,
+    "decoys_mean_score_kcal_mol": null,
+    "roc_auc": null,
+    "enrichment_factor_5pct": null
+  },
+  "reliability": {
+    "num_seeds": 5,
+    "top_k": 5,
+    "pose_consistency": null,
+    "score_sd_kcal_mol": null
+  }
+}
