@@ -5,6 +5,7 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
+from starlette.exceptions import HTTPException as StarletteHTTPException
 from backend.app.config import settings
 from backend.app.api.routes_jobs import router as jobs_router
 from backend.app.api.routes_examples import router as examples_router
@@ -85,5 +86,15 @@ async def api_health_check():
 # In Docker Compose, the separate Nginx frontend handles static files and proxies /api.
 frontend_dist = Path(settings.BASE_DIR) / "frontend" / "dist"
 if (frontend_dist / "index.html").is_file():
-    app.mount("/", StaticFiles(directory=frontend_dist, html=True), name="frontend")
+    class SpaStaticFiles(StaticFiles):
+        async def get_response(self, path: str, scope):
+            try:
+                return await super().get_response(path, scope)
+            except StarletteHTTPException as exc:
+                reserved = ("api/", "docs", "redoc", "openapi.json", "health")
+                if exc.status_code != 404 or path.startswith(reserved):
+                    raise
+                return await super().get_response("index.html", scope)
+
+    app.mount("/", SpaStaticFiles(directory=frontend_dist, html=True), name="frontend")
 
